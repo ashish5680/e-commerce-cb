@@ -63,6 +63,9 @@ app.use(productRoutes);
 
 
 
-app.listen(2323, (req, res) => {
-    console.log('server running at port 2323');
+// heroku is going to pass this port || localhost port
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+    console.log(`server running at port ${port}`);
 });
