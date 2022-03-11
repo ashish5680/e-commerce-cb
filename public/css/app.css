@@ -1,0 +1,39 @@
+
+:root{
+    --main-color:#5390d9;
+
+}
+
+
+
+.navbar{
+    background-color: var(--main-color);
+}
+
+
+
+
+main{
+    margin-top: 4.5rem;
+}
+
+
+
+/* .col-lg-4{
+    border:1px solid black;
+} */
+
+
+
+
+
+.card{
+    box-shadow: 1px 0.5px 2px #d3d3d3;
+}
+
+
+
+.card img{
+    padding:10px;
+    height: 225px;
+}
